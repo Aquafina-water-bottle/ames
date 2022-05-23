@@ -14,6 +14,9 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 #
 set -euo pipefail
+# Overrides localization settings
+LC_ALL=C
+LANG=C
 
 AUDIO_FIELD="audio"
 SCREENSHOT_FIELD="image"
